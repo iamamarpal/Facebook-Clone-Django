@@ -26,7 +26,7 @@ This is a social media website built using django.
   - **python manage.py createsuperuser**
   
 ##### 4.Env vars
-- Go the the folder **icebook** where the settings.py file sits and create a file called **.env**
+- Go the the folder **facebook** where the settings.py file sits and create a file called **.env**
 - Add the following inside the file:
   - ```SECRET_KEY = 'secret_key_here' ```
   

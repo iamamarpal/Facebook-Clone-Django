@@ -1,4 +1,4 @@
-"""icebook URL Configuration
+"""facebook URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -23,9 +23,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", main_views.home_page, name="home"),
     path("about/", main_views.about_page, name="about"),
-    path('', include('icebook.apps.accounts.urls')),
-    path('', include('icebook.apps.posts.urls')),
-    path('', include('icebook.apps.api.urls'))
+    path('', include('facebook.apps.accounts.urls')),
+    path('', include('facebook.apps.posts.urls')),
+    path('', include('facebook.apps.api.urls'))
 ]
 
 if settings.DEBUG:

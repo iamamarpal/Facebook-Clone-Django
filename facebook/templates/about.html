@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+{% endblock %}
+
+{% block content %}
+<main>
+	<!-- <div class="profile_img"> -->
+		<img src="{% static 'images/login.jpg' %}">
+	<!-- </div> -->
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pretium ante ac erat consequat commodo. Nulla consectetur turpis sit amet metus finibus efficitur. Proin malesuada magna ut lorem blandit ultrices.</p>
+</main>
+
+{% endblock %}
